@@ -21,16 +21,16 @@ const crashSound = document.getElementById("crash-sound");
 
 // Game settings
 birdY = 100;
-birdVelocity = 0.5;
-gravity = 0.2;
-jumpForce = -7;
+birdVelocity = 0;
+gravity = 0.35;         
+jumpForce = -6.5;       
 gameRunning = false;
 score = 0;
 buildings = [];
-buildingGap = 500;
-buildingFrequency = 4000;
+buildingGap = 250;     
+buildingFrequency = 2200; 
 lastBuildingTime = 0;
-gameSpeed = 3;
+gameSpeed = 2.5;        
 isDay = true;
 playerName = "";
 
